@@ -1,0 +1,3 @@
+[submodule "libhv-http/contrib/uuid_v4"]
+	path = libhv-http/contrib/uuid_v4
+	url = https://github.com/crashoz/uuid_v4.git

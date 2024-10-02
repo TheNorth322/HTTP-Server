@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="uuid_v4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\contrib\;CMake Files\contrib\libhv\;CMake Files\contrib\libhv\cmake\;CMake Files\contrib\libhv-cmake\;CMake Files\contrib\uuid_v4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example">
+				<Option output="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/SOURCE_DIR_HEADER"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/libhv/include/hv"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/Makefile&quot;  VERBOSE=1 example"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example/fast">
+				<Option output="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/SOURCE_DIR_HEADER"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/libhv/include/hv"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/Makefile&quot;  VERBOSE=1 example/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/uuid_v4/example.cpp">
+			<Option target="example"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\contrib\"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\contrib\libhv\"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/hconfig.h.in">
+			<Option virtualFolder="CMake Files\contrib\libhv\"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/cmake/utils.cmake">
+			<Option virtualFolder="CMake Files\contrib\libhv\cmake\"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/cmake/vars.cmake">
+			<Option virtualFolder="CMake Files\contrib\libhv\cmake\"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv-cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\contrib\libhv-cmake\"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/uuid_v4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\contrib\uuid_v4\"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/uuid_v4/Config.cmake.in">
+			<Option virtualFolder="CMake Files\contrib\uuid_v4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

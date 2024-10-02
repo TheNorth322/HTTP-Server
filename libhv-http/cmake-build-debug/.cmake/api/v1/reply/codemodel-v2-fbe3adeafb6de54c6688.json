@@ -1,0 +1,193 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "contrib",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-contrib-Debug-341bdebe30af16482086.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "contrib"
+				},
+				{
+					"build" : "contrib/libhv-cmake",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-contrib.libhv-cmake-Debug-51ec363f33c3a41122e9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "contrib/libhv-cmake"
+				},
+				{
+					"build" : "contrib/libhv",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-contrib.libhv-Debug-7cdd776e7c4ce10b386f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "contrib/libhv",
+					"targetIndexes" : 
+					[
+						1,
+						4
+					]
+				},
+				{
+					"build" : "contrib/uuid_v4",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-contrib.uuid_v4-Debug-92120698f30e20305ded.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "contrib/uuid_v4",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "libhv-http",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "hv",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "uuid_v4",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "example::@66dd69c6b2fccc2093e4",
+					"jsonFile" : "target-example-Debug-4d462d23a7ff2c0d23d5.json",
+					"name" : "example",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "hv_static::@22c95b0eef2e637bb5e9",
+					"jsonFile" : "target-hv_static-Debug-4ac83df8541e7dfcbf8f.json",
+					"name" : "hv_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libhv-http::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libhv-http-Debug-2a7423f91f4cc85870ee.json",
+					"name" : "libhv-http",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libhv-http-client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libhv-http-client-Debug-2b0c24a255c97d66df1a.json",
+					"name" : "libhv-http-client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libhv_static::@22c95b0eef2e637bb5e9",
+					"jsonFile" : "target-libhv_static-Debug-e1fe8b74283a115189ab.json",
+					"name" : "libhv_static",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug",
+		"source" : "/home/user/labs/avt113-labs-team-5/libhv-http"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,153 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"contrib/libhv/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 255,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 261,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 262,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libhv_static.a"
+			],
+			"targetId" : "hv_static::@22c95b0eef2e637bb5e9",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/hv",
+			"paths" : 
+			[
+				"contrib/libhv/hv.h",
+				"contrib/libhv/hconfig.h",
+				"contrib/libhv/hexport.h",
+				"contrib/libhv/base/hplatform.h",
+				"contrib/libhv/base/hdef.h",
+				"contrib/libhv/base/hatomic.h",
+				"contrib/libhv/base/herr.h",
+				"contrib/libhv/base/htime.h",
+				"contrib/libhv/base/hmath.h",
+				"contrib/libhv/base/hbase.h",
+				"contrib/libhv/base/hversion.h",
+				"contrib/libhv/base/hsysinfo.h",
+				"contrib/libhv/base/hproc.h",
+				"contrib/libhv/base/hthread.h",
+				"contrib/libhv/base/hmutex.h",
+				"contrib/libhv/base/hsocket.h",
+				"contrib/libhv/base/hlog.h",
+				"contrib/libhv/base/hbuf.h",
+				"contrib/libhv/base/hmain.h",
+				"contrib/libhv/base/hendian.h",
+				"contrib/libhv/ssl/hssl.h",
+				"contrib/libhv/event/hloop.h",
+				"contrib/libhv/event/nlog.h",
+				"contrib/libhv/util/base64.h",
+				"contrib/libhv/util/md5.h",
+				"contrib/libhv/util/sha1.h",
+				"contrib/libhv/cpputil/hmap.h",
+				"contrib/libhv/cpputil/hstring.h",
+				"contrib/libhv/cpputil/hfile.h",
+				"contrib/libhv/cpputil/hpath.h",
+				"contrib/libhv/cpputil/hdir.h",
+				"contrib/libhv/cpputil/hurl.h",
+				"contrib/libhv/cpputil/hscope.h",
+				"contrib/libhv/cpputil/hthreadpool.h",
+				"contrib/libhv/cpputil/hasync.h",
+				"contrib/libhv/cpputil/hobjectpool.h",
+				"contrib/libhv/cpputil/ifconfig.h",
+				"contrib/libhv/cpputil/iniparser.h",
+				"contrib/libhv/cpputil/json.hpp",
+				"contrib/libhv/cpputil/singleton.h",
+				"contrib/libhv/cpputil/ThreadLocalStorage.h",
+				"contrib/libhv/evpp/Buffer.h",
+				"contrib/libhv/evpp/Channel.h",
+				"contrib/libhv/evpp/Event.h",
+				"contrib/libhv/evpp/EventLoop.h",
+				"contrib/libhv/evpp/EventLoopThread.h",
+				"contrib/libhv/evpp/EventLoopThreadPool.h",
+				"contrib/libhv/evpp/Status.h",
+				"contrib/libhv/evpp/TcpClient.h",
+				"contrib/libhv/evpp/TcpServer.h",
+				"contrib/libhv/evpp/UdpClient.h",
+				"contrib/libhv/evpp/UdpServer.h",
+				"contrib/libhv/http/httpdef.h",
+				"contrib/libhv/http/wsdef.h",
+				"contrib/libhv/http/http_content.h",
+				"contrib/libhv/http/HttpMessage.h",
+				"contrib/libhv/http/HttpParser.h",
+				"contrib/libhv/http/WebSocketParser.h",
+				"contrib/libhv/http/WebSocketChannel.h",
+				"contrib/libhv/http/server/HttpServer.h",
+				"contrib/libhv/http/server/HttpService.h",
+				"contrib/libhv/http/server/HttpContext.h",
+				"contrib/libhv/http/server/HttpResponseWriter.h",
+				"contrib/libhv/http/server/WebSocketServer.h",
+				"contrib/libhv/http/client/HttpClient.h",
+				"contrib/libhv/http/client/requests.h",
+				"contrib/libhv/http/client/axios.h",
+				"contrib/libhv/http/client/AsyncHttpClient.h",
+				"contrib/libhv/http/client/WebSocketClient.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/libhv",
+			"exportName" : "libhvConfig",
+			"exportTargets" : 
+			[
+				{
+					"id" : "hv_static::@22c95b0eef2e637bb5e9",
+					"index" : 1
+				}
+			],
+			"paths" : 
+			[
+				"contrib/libhv/CMakeFiles/Export/51ac961e5020fc2ba22ceaef8285f800/libhvConfig.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "contrib/libhv",
+		"source" : "contrib/libhv"
+	}
+}

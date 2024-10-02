@@ -1,0 +1,100 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"contrib/uuid_v4/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 110,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 113,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/uuid_v4",
+			"paths" : 
+			[
+				"contrib/uuid_v4/uuid_v4.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/uuid_v4",
+			"paths" : 
+			[
+				"contrib/uuid_v4/endianness.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/uuid_v4",
+			"paths" : 
+			[
+				"cmake-build-debug/contrib/uuid_v4/generated/uuid_v4Config.cmake",
+				"cmake-build-debug/contrib/uuid_v4/generated/uuid_v4ConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/uuid_v4",
+			"exportName" : "uuid_v4Targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "uuid_v4::@66dd69c6b2fccc2093e4",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"contrib/uuid_v4/CMakeFiles/Export/65d6cf5811040ff625f3faf2e4565310/uuid_v4Targets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "contrib/uuid_v4",
+		"source" : "contrib/uuid_v4"
+	}
+}

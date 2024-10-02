@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libhv-http"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\contrib\;CMake Files\contrib\libhv\;CMake Files\contrib\libhv\cmake\;CMake Files\contrib\libhv-cmake\;CMake Files\contrib\uuid_v4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libhv-http">
+				<Option output="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/libhv-http" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHV_STATICLIB"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/SOURCE_DIR_HEADER"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/libhv/include/hv"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/uuid_v4"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 libhv-http"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libhv-http/fast">
+				<Option output="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/libhv-http" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHV_STATICLIB"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/SOURCE_DIR_HEADER"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/libhv/include/hv"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/uuid_v4"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 libhv-http/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hv_static">
+				<Option output="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/lib/libhv_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/libhv"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHV_STATICLIB"/>
+					<Add option="-DDEBUG"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/."/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/include"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/3rd/include"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/src"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/base"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/ssl"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/event"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/util"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/cpputil"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/evpp"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/server"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/client"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/libhv/Makefile&quot;  VERBOSE=1 hv_static"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/libhv/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/libhv/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/libhv/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hv_static/fast">
+				<Option output="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/lib/libhv_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/libhv"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHV_STATICLIB"/>
+					<Add option="-DDEBUG"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/."/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/include"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/3rd/include"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/src"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/base"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/ssl"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/event"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/util"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/cpputil"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/evpp"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/server"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/client"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/libhv/Makefile&quot;  VERBOSE=1 hv_static/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/libhv/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/libhv/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/libhv/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libhv_static">
+				<Option working_dir="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/libhv"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/libhv/Makefile&quot;  VERBOSE=1 libhv_static"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/libhv/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/libhv/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/libhv/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example">
+				<Option output="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/SOURCE_DIR_HEADER"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/libhv/include/hv"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/Makefile&quot;  VERBOSE=1 example"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example/fast">
+				<Option output="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/SOURCE_DIR_HEADER"/>
+					<Add directory="/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/libhv/include/hv"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/Makefile&quot;  VERBOSE=1 example/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/user/labs/avt113-labs-team-5/libhv-http/cmake-build-debug/contrib/uuid_v4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/base/hbase.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/base/hbase.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/base/herr.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/base/herr.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/base/hlog.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/base/hlog.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/base/hmain.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/base/hmain.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/base/hsocket.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/base/hsocket.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/base/htime.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/base/htime.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/base/hversion.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/base/hversion.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/base/rbtree.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/base/rbtree.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/cpputil/RAII.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/cpputil/ThreadLocalStorage.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/cpputil/ThreadLocalStorage.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/cpputil/hasync.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/cpputil/hasync.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/cpputil/hdir.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/cpputil/hdir.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/cpputil/hpath.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/cpputil/hpath.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/cpputil/hstring.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/cpputil/hstring.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/cpputil/hurl.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/cpputil/hurl.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/cpputil/ifconfig.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/cpputil/ifconfig.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/cpputil/iniparser.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/cpputil/iniparser.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/event/epoll.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/event/evport.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/event/hevent.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/event/hevent.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/event/hloop.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/event/hloop.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/event/iocp.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/event/kqueue.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/event/nio.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/event/nlog.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/event/nlog.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/event/noevent.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/event/overlapio.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/event/overlapio.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/event/poll.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/event/rudp.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/event/rudp.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/event/select.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/event/unpack.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/event/unpack.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/Http1Parser.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/Http1Parser.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/Http2Parser.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/Http2Parser.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/HttpMessage.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/HttpMessage.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/HttpParser.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/HttpParser.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/WebSocketChannel.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/WebSocketChannel.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/WebSocketParser.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/WebSocketParser.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/client/AsyncHttpClient.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/client/AsyncHttpClient.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/client/HttpClient.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/client/HttpClient.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/client/WebSocketClient.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/client/WebSocketClient.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/http_content.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/http_content.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/http_parser.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/http_parser.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/httpdef.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/httpdef.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/multipart_parser.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/multipart_parser.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/server/FileCache.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/server/FileCache.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/server/HttpHandler.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/server/HttpHandler.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/server/HttpMiddleware.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/server/HttpMiddleware.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/server/HttpResponseWriter.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/server/HttpResponseWriter.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/server/HttpServer.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/server/HttpServer.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/server/HttpService.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/server/HttpService.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/server/http_page.cpp">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/server/http_page.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/websocket_parser.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/websocket_parser.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/wsdef.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/http/wsdef.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/ssl/appletls.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/ssl/gnutls.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/ssl/hssl.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/ssl/hssl.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/ssl/mbedtls.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/ssl/nossl.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/ssl/openssl.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/ssl/wintls.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/util/base64.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/util/base64.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/util/md5.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/util/md5.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/util/sha1.c">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/util/sha1.h">
+			<Option target="hv_static"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/uuid_v4/example.cpp">
+			<Option target="example"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/src/HTTPServer.cpp">
+			<Option target="libhv-http"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/src/HTTPServer.hpp">
+			<Option target="libhv-http"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/src/Router.cpp">
+			<Option target="libhv-http"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/src/Router.hpp">
+			<Option target="libhv-http"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/src/entity/User.cpp">
+			<Option target="libhv-http"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/src/entity/User.hpp">
+			<Option target="libhv-http"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/src/main.cpp">
+			<Option target="libhv-http"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/src/repository/MapUserRepository.cpp">
+			<Option target="libhv-http"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/src/repository/MapUserRepository.hpp">
+			<Option target="libhv-http"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/src/repository/UserRepository.hpp">
+			<Option target="libhv-http"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/src/service/UserService.cpp">
+			<Option target="libhv-http"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/src/service/UserService.hpp">
+			<Option target="libhv-http"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/src/utility/Base64Encoder.cpp">
+			<Option target="libhv-http"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/src/utility/Base64Encoder.hpp">
+			<Option target="libhv-http"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/src/utility/UUIDGenerator.hpp">
+			<Option target="libhv-http"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/src/utility/UUIDv4Generator.cpp">
+			<Option target="libhv-http"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/src/utility/UUIDv4Generator.hpp">
+			<Option target="libhv-http"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\contrib\"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\contrib\libhv\"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/hconfig.h.in">
+			<Option virtualFolder="CMake Files\contrib\libhv\"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/cmake/utils.cmake">
+			<Option virtualFolder="CMake Files\contrib\libhv\cmake\"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv/cmake/vars.cmake">
+			<Option virtualFolder="CMake Files\contrib\libhv\cmake\"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/libhv-cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\contrib\libhv-cmake\"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/uuid_v4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\contrib\uuid_v4\"/>
+		</Unit>
+		<Unit filename="/home/user/labs/avt113-labs-team-5/libhv-http/contrib/uuid_v4/Config.cmake.in">
+			<Option virtualFolder="CMake Files\contrib\uuid_v4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
